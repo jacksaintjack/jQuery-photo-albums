@@ -1,0 +1,38 @@
+.container-fluid{
+  background-color:red;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 9.7em;
+  padding:0em;
+}
+
+.row{
+
+  background-color: purple;
+  margin-top: 10%;
+  height: 40%;
+  width: 100%;;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.rowTwo{
+  background-color: purple;
+  margin-top: 5%;
+  height: 40%;
+  width: 100%;
+
+}
+
+.col-md-4{
+  background-color: brown;
+  height: 67%;
+  border: 0.1em solid black;
+  padding: 0em;
+}
+.col-xs-4{
+  background-color: brown;
+  height: 67%;
+  border: 0.1em solid black;
+  padding: 0em;
+}
