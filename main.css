@@ -9,7 +9,7 @@
   background-color:red;
   margin-left: 10%;
   margin-right: 10%;
-  height: 9.7em;
+  height: 53.7em;;
   padding:0em;
 }
 
@@ -88,13 +88,13 @@
 
 .row ul{
   list-style: none;
-  font-size:25%;
+  font-size:1em;
   padding:0px;
 }
 
 .rowTwo ul{
   list-style: none;
-  font-size:25%;
+  font-size:1em;
   padding:0px;
 }
 
@@ -139,9 +139,21 @@
 }
 /* Fish page */
 .sideBar{
-background-color: black;
-width: 15%;
-height: 2em;
-float: left;
-margin-left: -12%;
+  background-color: black;
+  width: 17.5%;
+  float: left;
+  position:fixed;
+  height: 53.7em;
+
+}
+
+#fishContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+.albums{
+  list-style: none;
+  font-size: 1.5em;
+  position:fixed;
 }

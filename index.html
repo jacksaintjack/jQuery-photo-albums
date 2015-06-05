@@ -10,17 +10,25 @@
   <div id ='landingPage' class = "container-fluid page active ">
     <div class = "title page active">Welcome To Pictures</div>
     <div class = "row page active">
+
       <div class ="col-xs-4 col-md-4 col-lg-4 ">
         <a href="#" rel=".fishLink">
           <img class = "fishMain" src = "Pictures/FishMain.jpeg">
         </a>
       </div>
+
       <div class ="col-xs-4 col-md-4 col-lg-4">
+        <a href="#" rel=".japnLink">
         <img class = "japnMain" src = "Pictures/japnMain.gif">
+      </a>
       </div>
+
       <div class ="col-xs-4 col-md-4 col-lg-4">
+        <a href="#" rel=".ziltoadLink">
         <img class = "ziltoadMain" src ="Pictures/ZiltoidMain.jpeg">
-      </div>
+      </a>
+
+    </div>
         <ul>
           <li class= "fish"><span>Fish</span></li>
           <li class= "japan"><span>Wierd Japan</span></li>
@@ -30,70 +38,262 @@
 
     <div class = "rowTwo page active">
       <div class = "col-xs-4 col-md-4 col-lg-4">
+        <a href="#" rel="birdLink">
         <img class ="mainBird" src ="Pictures/MainBird.jpeg">
+        </a>
       </div>
+
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <img class ="oldMain" src ="Pictures/OldMain.jpg">
+        <a href="#" rel="oldLink">
+          <img class ="oldMain" src ="Pictures/OldMain.jpg">
+        </a>
       </div>
+
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <img class ="wierdMain" src = "Pictures/wierdmain.jpeg">
+        <a href="#" rel="wierdLink">
+          <img class ="wierdMain" src = "Pictures/wierdmain.jpeg">
+        </a>
       </div>
+
       <ul>
         <li class= "bird"><span>Bird</span></li>
         <li class= "old"><span>Old Pictures</span></li>
         <li class= "wierd"><span>Wierd</span></li>
       </ul>
+
     </div>
   </div>
 
 
 
 <!-- FISH ALBUM -->
-      <aside>
-        <div class = "sideBar page">
-        </div>
-      </aside>
-      <div class ="fishLink page">
-        <div class = "container-fluid page active">
-          <div class = "title page active">Welcome To Pictures</div>
+
+      <div  id="fishPage" class ="fishLink page">
+
+        <aside>
+          <div class = "sideBar page active text-center">
+
+
+            <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton">Fish Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="japn" id ="japanButton">Wierd Japan Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton">Ziltoid Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id = "birdButton">Bird Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="old" id = "oldButton">Old Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="wierd" id= "wierdButton">Wierd Album</button>
+          </div>
+        </aside>
+
+        <div id="fishContainer" class = "container-fluid page active">
+          <div class = "title page active">It's the Fish
+          </div>
+
           <div class = "row page active">
 
             <div class ="col-xs-4 col-md-4 col-lg-4 ">
-              <a href="#" rel=".fishLink">
-                <img class = "fishMain" src = "Pictures/FishMain.jpeg">
+              <a href="#" rel=".fishOne">
+                <img class = "fishMain" src = "Pictures/Fish/FishOne.gif">
               </a>
             </div>
+
             <div class ="col-xs-4 col-md-4 col-lg-4">
-              <img class = "japnMain" src = "Pictures/japnMain.gif">
+              <a href="#" rel=".fishTwo">
+                <img class = "japnMain" src = "Pictures/Fish/FishTwo.gif">
+              </a>
             </div>
+
             <div class ="col-xs-4 col-md-4 col-lg-4">
-              <img class = "ziltoadMain" src ="Pictures/ZiltoidMain.jpeg">
+              <a href="#" rel=".fishThree">
+                <img class = "ziltoadMain" src ="Pictures/Fish/fishThree.gif">
+              </a>
             </div>
+
               <ul>
                 <li class= "fish"><span>One</span></li>
                 <li class= "japan"><span>Two</span></li>
                 <li class= "ziltoid"><span>Three</span></li>
               </ul>
+
           </div>
 
           <div class = "rowTwo page active">
             <div class = "col-xs-4 col-md-4 col-lg-4">
-              <img class ="mainBird" src ="Pictures/MainBird.jpeg">
+              <a href="#" rel="fishFour">
+                <img class ="mainBird" src ="Pictures/Fish/fishFour.gif">
+              </a>
             </div>
+
             <div class ="col-xs-4 col-md-4 col-lg-4">
-              <img class ="oldMain" src ="Pictures/OldMain.jpg">
+              <a href="#" rel="fishFive">
+                <img class ="oldMain" src ="Pictures/Fish/FishFive.gif">
+              </a>
             </div>
+
             <div class ="col-xs-4 col-md-4 col-lg-4">
-              <img class ="wierdMain" src = "Pictures/wierdmain.jpeg">
+              <a href="#" rel="fishSix">
+                <img class ="wierdMain" src = "Pictures/Fish/fishSix.gif">
+              </a>
             </div>
+
             <ul>
               <li class= "bird"><span>Four</span></li>
               <li class= "old"><span>Five</span></li>
               <li class= "wierd"><span>Six</span></li>
             </ul>
+
           </div>
         </div>
       </div>
+
+      <!-- Wierd Japan -->
+      <div  id="secondPage" class ="japnLink page">
+
+        <aside>
+          <div class = "sideBar page active text-center">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton">Fish Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="japn" id ="japanButton">Wierd Japan Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton">Ziltoid Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id = "birdButton">Bird Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="old" id = "oldButton">Old Album</button>
+            <button class="btn btn-block btn-lg btn-default" type="button" name="wierd" id= "wierdButton">Wierd Album</button>
+          </div>
+        </aside>
+
+        <div id="fishContainer" class = "container-fluid page active">
+          <div class = "title page active">It's the Fish
+          </div>
+
+          <div class = "row page active">
+
+            <div class ="col-xs-4 col-md-4 col-lg-4 ">
+              <a href="#" rel=".fishOne">
+                <img class = "fishMain" src = "Pictures/Japan/JapanOne.gif">
+              </a>
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <a href="#" rel=".fishTwo">
+                <img class = "japnMain" src = "Pictures/Japan/JapanTwo.gif">
+              </a>
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <a href="#" rel=".fishThree">
+                <img class = "ziltoadMain" src ="Pictures/Japan/japanThree.gif">
+              </a>
+            </div>
+
+              <ul>
+                <li class= "fish"><span>One</span></li>
+                <li class= "japan"><span>Two</span></li>
+                <li class= "ziltoid"><span>Three</span></li>
+              </ul>
+
+          </div>
+
+          <div class = "rowTwo page active">
+            <div class = "col-xs-4 col-md-4 col-lg-4">
+              <a href="#" rel="fishFour">
+                <img class ="mainBird" src ="Pictures/Japan/japanFour.gif">
+              </a>
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <a href="#" rel="fishFive">
+                <img class ="oldMain" src ="Pictures/Japan/japanFive.gif">
+              </a>
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <a href="#" rel="fishSix">
+                <img class ="wierdMain" src = "Pictures/Japan/JapanSix.gif">
+              </a>
+            </div>
+
+            <ul>
+              <li class= "bird"><span>Four</span></li>
+              <li class= "old"><span>Five</span></li>
+              <li class= "wierd"><span>Six</span></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+  <!-- Ziltoid Pictures -->
+
+  <div  id="thirdPage" class ="ziltoidLink page">
+
+    <aside>
+      <div class = "sideBar page active text-center">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton">Fish Album</button>
+        <button class="btn btn-block btn-lg btn-default" type="button" name="japn" id ="japanButton">Wierd Japan Album</button>
+        <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton">Ziltoid Album</button>
+        <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id = "birdButton">Bird Album</button>
+        <button class="btn btn-block btn-lg btn-default" type="button" name="old" id = "oldButton">Old Album</button>
+        <button class="btn btn-block btn-lg btn-default" type="button" name="wierd" id= "wierdButton">Wierd Album</button>
+      </div>
+    </aside>
+
+    <div id="ziltoidContainer" class = "container-fluid page active">
+      <div class = "title page active">It's the Fish
+      </div>
+
+      <div class = "row page active">
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 ">
+          <a href="#" rel=".fishOne">
+            <img class = "fishMain" src = "Pictures/Japan/JapanOne.gif">
+          </a>
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4">
+          <a href="#" rel=".fishTwo">
+            <img class = "japnMain" src = "Pictures/Japan/JapanTwo.gif">
+          </a>
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4">
+          <a href="#" rel=".fishThree">
+            <img class = "ziltoadMain" src ="Pictures/Japan/japanThree.gif">
+          </a>
+        </div>
+
+          <ul>
+            <li class= "fish"><span>One</span></li>
+            <li class= "japan"><span>Two</span></li>
+            <li class= "ziltoid"><span>Three</span></li>
+          </ul>
+
+      </div>
+
+      <div class = "rowTwo page active">
+        <div class = "col-xs-4 col-md-4 col-lg-4">
+          <a href="#" rel="fishFour">
+            <img class ="mainBird" src ="Pictures/Japan/japanFour.gif">
+          </a>
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4">
+          <a href="#" rel="fishFive">
+            <img class ="oldMain" src ="Pictures/Japan/japanFive.gif">
+          </a>
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4">
+          <a href="#" rel="fishSix">
+            <img class ="wierdMain" src = "Pictures/Japan/JapanSix.gif">
+          </a>
+        </div>
+
+        <ul>
+          <li class= "bird"><span>Four</span></li>
+          <li class= "old"><span>Five</span></li>
+          <li class= "wierd"><span>Six</span></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
 
 
   <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>

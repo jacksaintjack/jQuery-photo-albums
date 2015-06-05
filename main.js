@@ -7,6 +7,7 @@ $(document).ready(function() {
     $(clickedPage).siblings().removeClass('active');
     $(clickedPage).addClass('active');
   });
+  
 
 
 
