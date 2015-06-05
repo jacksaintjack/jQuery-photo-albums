@@ -6,12 +6,11 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
 </head>
-<body>
-  <div class = "container-fluid">
-    <div class = "title">Welcome To Pictures</div>
-    <div class = "row active">
-
-      <div class ="col-xs-4 col-md-4 col-lg-4">
+<body class>
+  <div id ='landingPage' class = "container-fluid page active ">
+    <div class = "title page active">Welcome To Pictures</div>
+    <div class = "row page active">
+      <div class ="col-xs-4 col-md-4 col-lg-4 ">
         <a href="#" rel=".fishLink">
           <img class = "fishMain" src = "Pictures/FishMain.jpeg">
         </a>
@@ -29,7 +28,7 @@
         </ul>
     </div>
 
-    <div class = "rowTwo">
+    <div class = "rowTwo page active">
       <div class = "col-xs-4 col-md-4 col-lg-4">
         <img class ="mainBird" src ="Pictures/MainBird.jpeg">
       </div>
@@ -45,10 +44,56 @@
         <li class= "wierd"><span>Wierd</span></li>
       </ul>
     </div>
+  </div>
 
-      <div class ="page fishLink">
-        <span>FISH</span>
-        <div>
+
+
+<!-- FISH ALBUM -->
+      <aside>
+        <div class = "sideBar page">
+        </div>
+      </aside>
+      <div class ="fishLink page">
+        <div class = "container-fluid page active">
+          <div class = "title page active">Welcome To Pictures</div>
+          <div class = "row page active">
+
+            <div class ="col-xs-4 col-md-4 col-lg-4 ">
+              <a href="#" rel=".fishLink">
+                <img class = "fishMain" src = "Pictures/FishMain.jpeg">
+              </a>
+            </div>
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <img class = "japnMain" src = "Pictures/japnMain.gif">
+            </div>
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <img class = "ziltoadMain" src ="Pictures/ZiltoidMain.jpeg">
+            </div>
+              <ul>
+                <li class= "fish"><span>One</span></li>
+                <li class= "japan"><span>Two</span></li>
+                <li class= "ziltoid"><span>Three</span></li>
+              </ul>
+          </div>
+
+          <div class = "rowTwo page active">
+            <div class = "col-xs-4 col-md-4 col-lg-4">
+              <img class ="mainBird" src ="Pictures/MainBird.jpeg">
+            </div>
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <img class ="oldMain" src ="Pictures/OldMain.jpg">
+            </div>
+            <div class ="col-xs-4 col-md-4 col-lg-4">
+              <img class ="wierdMain" src = "Pictures/wierdmain.jpeg">
+            </div>
+            <ul>
+              <li class= "bird"><span>Four</span></li>
+              <li class= "old"><span>Five</span></li>
+              <li class= "wierd"><span>Six</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
 
   <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>
