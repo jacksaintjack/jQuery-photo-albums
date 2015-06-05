@@ -1,7 +1,14 @@
+
+.title{
+  width:100%;
+  background-color: green;
+  flex:auto;
+}
+
 .container-fluid{
   background-color:red;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   height: 9.7em;
   padding:0em;
 }
@@ -9,7 +16,7 @@
 .row{
 
   background-color: purple;
-  margin-top: 10%;
+  margin-top: 0%;
   height: 40%;
   width: 100%;;
   margin-left:0px;
@@ -18,7 +25,6 @@
 
 .rowTwo{
   background-color: purple;
-  margin-top: 5%;
   height: 40%;
   width: 100%;
 
@@ -26,13 +32,101 @@
 
 .col-md-4{
   background-color: brown;
-  height: 67%;
+  height: 80%;
   border: 0.1em solid black;
   padding: 0em;
 }
 .col-xs-4{
   background-color: brown;
-  height: 67%;
+  height: 80%;
   border: 0.1em solid black;
   padding: 0em;
+}
+
+.col-lg-4{
+  background-color: brown;
+  height: 80%;
+  border: 0.1em solid black;
+  padding: 0em;
+
+}
+
+.fishMain{
+  width:100%;
+  height:100%
+}
+
+.japnMain{
+  width:100%;
+  height:100%
+
+}
+
+.ziltoadMain{
+  width:100%;
+  height:100%
+
+}
+
+.mainBird{
+  width:100%;
+  height:100%
+
+}
+
+.oldMain{
+  width:100%;
+  height:100%
+
+}
+
+.wierdMain{
+  width:100%;
+  height:100%;
+
+}
+
+.row ul{
+  list-style: none;
+  font-size:25%;
+  padding:0px;
+}
+
+.rowTwo ul{
+  list-style: none;
+  font-size:25%;
+  padding:0px;
+}
+
+/* Some modifcations for the LIs in the list */
+.fish{
+  float:left;
+  margin-left: 14%;
+
+}
+
+.japan{
+  float:left;
+  margin-left: 24%;
+}
+
+.ziltoid{
+  float:left;
+  margin-left: 18%;
+}
+
+.bird{
+  float:left;
+  margin-left: 14%;
+
+}
+
+.old{
+  float:left;
+  margin-left: 24%;
+}
+
+.wierd{
+  float:left;
+  margin-left: 23%;
 }
