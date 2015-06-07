@@ -51,36 +51,36 @@
 
 }
 
-.fishMain{
+.selectionOne{
   width:100%;
   height:100%
 }
 
-.japnMain{
-  width:100%;
-  height:100%
-
-}
-
-.ziltoadMain{
+.selectionTwo{
   width:100%;
   height:100%
 
 }
 
-.mainBird{
+.selectionThree{
   width:100%;
   height:100%
 
 }
 
-.oldMain{
+.selectionFour{
   width:100%;
   height:100%
 
 }
 
-.wierdMain{
+.selectionFive{
+  width:100%;
+  height:100%
+
+}
+
+.selectionSix{
   width:100%;
   height:100%;
 
@@ -156,4 +156,35 @@
   list-style: none;
   font-size: 1.5em;
   position:fixed;
+}
+
+#japanContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+/* for third album */
+
+#ziltoidContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+/*For Bird Album*/
+#birdContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+/*for old Album*/
+#oldContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+/*for  wierd album*/
+
+#wierdContainer{
+  margin-right: 0%;
+  margin-left: 18%;
 }
