@@ -130,6 +130,7 @@
   float:left;
   margin-left: 23%;
 }
+/*used to display and hide pages*/
 
 .page {
   display: none;
@@ -137,7 +138,7 @@
 .active{
   display: block;
 }
-/* Fish page */
+/* Format for all pages other than the landing page */
 .sideBar{
   background-color: black;
   width: 17.5%;
@@ -147,44 +148,53 @@
 
 }
 
-#fishContainer{
-  margin-right: 0%;
-  margin-left: 18%;
-}
-
 .albums{
   list-style: none;
   font-size: 1.5em;
   position:fixed;
 }
 
+#fishContainer{
+  margin-right: 0%;
+  margin-left: 18%;
+}
+
+
 #japanContainer{
   margin-right: 0%;
   margin-left: 18%;
 }
 
-/* for third album */
 
 #ziltoidContainer{
   margin-right: 0%;
   margin-left: 18%;
 }
 
-/*For Bird Album*/
 #birdContainer{
   margin-right: 0%;
   margin-left: 18%;
 }
 
-/*for old Album*/
 #oldContainer{
   margin-right: 0%;
   margin-left: 18%;
 }
 
-/*for  wierd album*/
-
 #wierdContainer{
   margin-right: 0%;
   margin-left: 18%;
+}
+
+/* This section is for the removal and in largement of picture*/
+.inLarge{
+  width:100%;
+  height:100%;
+}
+.rowAlt{
+  height:50%;
+}
+
+#pictureContainer{
+  margin:0;
 }
