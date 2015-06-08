@@ -1,11 +1,5 @@
 
-var newOneArray=  [        //This will go into
-  {
-  title: "hello",
-  image: "Pictures/background4.jpeg"
-  }
-];
-var albumOne = [
+var albumOne = [   //This one goes into the album
   {
     name: "UnderConstruction",
     title: "Do You like Exploding Ships?",
@@ -13,10 +7,19 @@ var albumOne = [
   }
 ];
 
+var newOneArray=  [        //This will go into for the gallery
+  {
+  title: "Steamy Ships",
+  image: "Pictures/steamy.jpg"
+  }
+];
+
 var selectedAlbum;
+
 var albumsPics = {
   newOne: newOneArray
 }
+
 $('.albumGallery').on('click', '.imgDiv', function(event){
   event.preventDefault;
   selectedAlbum = albumPics[$(this).attr('data-name')]
@@ -24,7 +27,7 @@ $('.albumGallery').on('click', '.imgDiv', function(event){
   selectedAlbum.forEach(function(el){
     imgString += compiledTmpl(el);
   });
-  $('.albumGallery').append(imgString);
+  $('.imageGallery').append(imgString);
 });
 var mytempl = [
 "<div class ='col-xs-12 col-md-12 col-lg-12' data-name='<% name %>'>",

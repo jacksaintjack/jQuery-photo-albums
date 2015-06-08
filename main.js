@@ -18,6 +18,7 @@ $(document).ready(function() {
 
   //For boat Selection//
   $('#shipsPage').on('click', 'a', pageHandler);
+  $('#shipsPageTwo').on('click', 'a', pageHandler)
 
   //For the Fish Selection//
   $('#pictureOne').on('click', 'a', pageHandler);
