@@ -1,344 +1,69 @@
 $(document).ready(function() {
 
-  $('#landingPage').on('click', 'a', function (event) {
-    event.preventDefault();
+  var pageHandler = function(event){
     console.log("this element ",$(this).attr('rel'));
+    event.preventDefault();
     var clickedPage = $(this).attr('rel');
     $(clickedPage).siblings().removeClass('active');
     $(clickedPage).addClass('active');
-  });
+  };
 
-  $('#fishPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  $('#landingPage').on('click', 'a', pageHandler);
+  $('#fishPage').on('click', 'a', pageHandler);
+  $('#japanPage').on('click', 'a', pageHandler);
+  $('#ziltoidPage').on('click', 'a', pageHandler);
+  $('#birdPage').on('click', 'a', pageHandler);
+  $('#oldPage').on('click', 'a', pageHandler);
+  $('#wierdPage').on('click', 'a', pageHandler);
 
-  $('#japanPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  //For boat Selection//
+  $('#shipsPage').on('click', 'a', pageHandler);
 
-  $('#ziltoidPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#birdPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#oldPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#wierdPage').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
   //For the Fish Selection//
-  $('#pictureOne').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwo').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThree').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFour').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFive').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSix').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  $('#pictureOne').on('click', 'a', pageHandler);
+  $('#pictureTwo').on('click', 'a', pageHandler);
+  $('#pictureThree').on('click', 'a', pageHandler);
+  $('#pictureFour').on('click', 'a', pageHandler);
+  $('#pictureFive').on('click', 'a', pageHandler);
+  $('#pictureSix').on('click', 'a', pageHandler);
 
   //For the Japan Selection//
-  $('#pictureOneJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwoJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThreeJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFourJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFiveJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSixJapan').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  $('#pictureOneJapan').on('click', 'a', pageHandler);
+  $('#pictureTwoJapan').on('click', 'a', pageHandler);
+  $('#pictureThreeJapan').on('click', 'a', pageHandler);
+  $('#pictureFourJapan').on('click', 'a', pageHandler);
+  $('#pictureFiveJapan').on('click', 'a', pageHandler);
+  $('#pictureSixJapan').on('click', 'a', pageHandler);
 
   //Ziltoid Selection//
-  $('#pictureOneZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwoZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThreeZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFourZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFiveZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSixZiltoid').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  $('#pictureOneZiltoid').on('click', 'a', pageHandler);
+  $('#pictureTwoZiltoid').on('click', 'a', pageHandler);
+  $('#pictureThreeZiltoid').on('click', 'a', pageHandler);
+  $('#pictureFourZiltoid').on('click', 'a', pageHandler);
+  $('#pictureFiveZiltoid').on('click', 'a', pageHandler);
+  $('#pictureSixZiltoid').on('click', 'a', pageHandler);
 
   //Bird Selection//
-  $('#pictureOneBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwoBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThreeBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFourBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFiveBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSixBird').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
+  $('#pictureOneBird').on('click', 'a', pageHandler);
+  $('#pictureTwoBird').on('click', 'a', pageHandler);
+  $('#pictureThreeBird').on('click', 'a', pageHandler);
+  $('#pictureFourBird').on('click', 'a', pageHandler);
+  $('#pictureFiveBird').on('click', 'a', pageHandler);
+  $('#pictureSixBird').on('click', 'a', pageHandler);
 
   //Section for in largment of Old Pictures//
-
-  $('#pictureOneOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwoOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThreeOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFourOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFiveOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSixOld').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
+  $('#pictureOneOld').on('click', 'a', pageHandler);
+  $('#pictureTwoOld').on('click', 'a', pageHandler);
+  $('#pictureThreeOld').on('click', 'a', pageHandler);
+  $('#pictureFourOld').on('click', 'a', pageHandler);
+  $('#pictureFiveOld').on('click', 'a', pageHandler);
+  $('#pictureSixOld').on('click', 'a', pageHandler);
 //Section for Wierd Inlargement//
-  $('#pictureOneWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureTwoWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureThreeWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-  $('#pictureFourWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureFiveWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-  $('#pictureSixWierd').on('click', 'a', function (event) {
-    event.preventDefault();
-    console.log("this element ",$(this).attr('rel'));
-    var clickedPage = $(this).attr('rel');
-    $(clickedPage).siblings().removeClass('active');
-    $(clickedPage).addClass('active');
-  });
-
-
-
+  $('#pictureOneWierd').on('click', 'a', pageHandler);
+  $('#pictureTwoWierd').on('click', 'a', pageHandler);
+  $('#pictureThreeWierd').on('click', 'a', pageHandler);
+  $('#pictureFourWierd').on('click', 'a', pageHandler);
+  $('#pictureFiveWierd').on('click', 'a', pageHandler);
+  $('#pictureSixWierd').on('click', 'a', pageHandler);
 
 });
