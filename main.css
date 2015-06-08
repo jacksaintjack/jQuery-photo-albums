@@ -6,7 +6,6 @@
 }
 
 .container-fluid{
-  background-color:red;
   margin-left: 10%;
   margin-right: 10%;
   height: 53.7em;;
@@ -15,7 +14,6 @@
 
 .row{
 
-  background-color: purple;
   margin-top: 0%;
   height: 40%;
   width: 100%;;
@@ -24,30 +22,37 @@
 }
 
 .rowTwo{
-  background-color: purple;
   height: 40%;
   width: 100%;
 
 }
 
 .col-md-4{
-  background-color: brown;
   height: 80%;
   border: 0.1em solid black;
   padding: 0em;
 }
 .col-xs-4{
-  background-color: brown;
+
   height: 80%;
   border: 0.1em solid black;
   padding: 0em;
 }
 
 .col-lg-4{
-  background-color: brown;
   height: 80%;
   border: 0.1em solid black;
   padding: 0em;
+
+}
+
+.title{
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-size:2.8em;
+}
+
+.title span{
+  margin-left: 2.3em;
 
 }
 
@@ -86,16 +91,27 @@
 
 }
 
-.row ul{
-  list-style: none;
-  font-size:1em;
-  padding:0px;
-}
+.subRow{
 
-.rowTwo ul{
-  list-style: none;
-  font-size:1em;
-  padding:0px;
+  width: 100%;
+  height: 13%;
+  margin-top: 36%;
+  font-size: 1.5em;
+
+}
+.subRowTwo{
+  width: 100%;
+  height: 20%;
+  margin-top: 1%;
+  font-size: 1.5em;
+  float: left;
+
+}
+.subBox{
+  border: 0px solid white;
+}
+.subBoxTwo{
+  border: 0px solid white;
 }
 
 /* Some modifcations for the LIs in the list */
@@ -186,7 +202,7 @@
   margin-left: 18%;
 }
 
-/* This section is for the removal and in largement of picture*/
+/* For the inlargment part of the html*/
 .inLarge{
   width:100%;
   height:100%;

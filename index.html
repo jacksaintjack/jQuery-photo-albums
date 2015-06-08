@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel= "stylesheet" href= "font-awesome/css/font-awesome.min.css">
+  <link rel= "stylesheet" href= "bower_components/fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
 </head>
-<body class>
-  <div id ='landingPage' class = "container-fluid page active ">
-    <div class = "title page active">Welcome To Pictures</div>
+<body>
+  <div id ='landingPage' class = "container-fluid page landingLink active ">
+    <div class = "title page active"><span>Welcome To Your Pictures<span></div>
     <div class = "row page active">
 
       <div class ="col-xs-4 col-md-4 col-lg-4 ">
@@ -30,12 +30,26 @@
       </a>
 
     </div>
-        <ul>
-          <li class= "fish"><span>Fish</span></li>
-          <li class= "japan"><span>Wierd Japan</span></li>
-          <li class= "ziltoid"><span>Ziltoid Main</span></li>
-        </ul>
+    <div class = "subRow page active">
+      <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+          <span class = "pictureTitle"> Fish Album </span>
+
+      </div>
+
+      <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+          <span class = "pictureTitle"> Wierd Japan Album </span>
+
+      </div>
+
+      <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+          <span class = "pictureTitle">Ziltoid Main Album </span>
+
+      </div>
     </div>
+  </div>
 
     <div class = "rowTwo page active">
       <div class = "col-xs-4 col-md-4 col-lg-4">
@@ -55,13 +69,25 @@
           <img class ="selectionSix" src = "Pictures/wierdmain.jpeg">
         </a>
       </div>
+      <div class = "subRowTwo page active">
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-      <ul>
-        <li class= "bird"><span>Bird</span></li>
-        <li class= "old"><span>Old Pictures</span></li>
-        <li class= "wierd"><span>Wierd</span></li>
-      </ul>
+            <span class = "pictureTitle"> Bird Album </span>
 
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle"> Old Album </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle">Wierd Album </span>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -73,6 +99,9 @@
 
         <aside>
           <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
 
             <a href="#" rel=".fishLink">
               <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
@@ -123,11 +152,25 @@
               </a>
             </div>
 
-              <ul>
-                <li class= "fish"><span>One</span></li>
-                <li class= "japan"><span>Two</span></li>
-                <li class= "ziltoid"><span>Three</span></li>
-              </ul>
+            <div class = "subRow page active">
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                  <span class = "pictureTitle"> I </span>
+
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                  <span class = "pictureTitle"> II </span>
+
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                  <span class = "pictureTitle">III </span>
+
+              </div>
+            </div>
 
           </div>
 
@@ -149,13 +192,25 @@
                 <img class ="selectionSix" src = "Pictures/Fish/fishSix.gif">
               </a>
             </div>
+            <div class = "subRowTwo page active">
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-            <ul>
-              <li class= "bird"><span>Four</span></li>
-              <li class= "old"><span>Five</span></li>
-              <li class= "wierd"><span>Six</span></li>
-            </ul>
+                  <span class = "pictureTitle"> IV</span>
 
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+                  <span class = "pictureTitle"> V </span>
+
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+                  <span class = "pictureTitle">VI </span>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -165,6 +220,10 @@
 
         <aside>
           <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
             <a href="#" rel=".fishLink">
               <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
             </a>
@@ -212,12 +271,25 @@
                 <img class = "selectionThree" src ="Pictures/Japan/japanThree.gif">
               </a>
             </div>
+            <div class = "subRow page active">
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
 
-              <ul>
-                <li class= "fish"><span>One</span></li>
-                <li class= "japan"><span>Two</span></li>
-                <li class= "ziltoid"><span>Three</span></li>
-              </ul>
+                  <span class = "pictureTitle"> I </span>
+
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                  <span class = "pictureTitle"> II </span>
+
+              </div>
+
+              <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                  <span class = "pictureTitle">III </span>
+
+              </div>
+            </div>
 
           </div>
 
@@ -239,12 +311,25 @@
                 <img class ="selectionSix" src = "Pictures/Japan/JapanSix.gif">
               </a>
             </div>
+              <div class = "subRowTwo page active">
+                <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-            <ul>
-              <li class= "bird"><span>Four</span></li>
-              <li class= "old"><span>Five</span></li>
-              <li class= "wierd"><span>Six</span></li>
-            </ul>
+                    <span class = "pictureTitle"> IV</span>
+
+                </div>
+
+                <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+                    <span class = "pictureTitle"> V </span>
+
+                </div>
+
+                <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+                    <span class = "pictureTitle">VI </span>
+
+                </div>
+              </div>
 
           </div>
         </div>
@@ -256,6 +341,10 @@
 
     <aside>
       <div class = "sideBar page active text-center">
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
         <a href="#" rel=".fishLink">
           <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
         </a>
@@ -287,55 +376,80 @@
       <div class = "row page active">
 
         <div class ="col-xs-4 col-md-4 col-lg-4 ">
-          <a href="#" rel=".ziltoidOne">
+          <a href="#" rel=".pictureLinkOneZiltoid">
               <img class = "selectionOne" src = "Pictures/Ziltoid/ziltoidOne.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".ziltoidTwo">
+          <a href="#" rel=".pictureLinkTwoZiltoid">
             <img class = "selectionTwo" src = "Pictures/Ziltoid/ziltoidTwo.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".ziltoidThree">
+          <a href="#" rel=".pictureLinkThreeZiltoid">
             <img class = "selectionThree" src ="Pictures/Ziltoid/ziltoidThree.jpeg">
           </a>
         </div>
+        <div class = "subRow page active">
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
 
-          <ul>
-            <li class= "fish"><span>One</span></li>
-            <li class= "japan"><span>Two</span></li>
-            <li class= "ziltoid"><span>Three</span></li>
-          </ul>
+              <span class = "pictureTitle"> I </span>
 
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+              <span class = "pictureTitle"> II </span>
+
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+              <span class = "pictureTitle">III </span>
+
+          </div>
+        </div>
       </div>
 
       <div class = "rowTwo page active">
         <div class = "col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".ziltoidFour">
+          <a href="#" rel=".pictureLinkFourZiltoid">
             <img class ="selectionFour" src ="Pictures/Ziltoid/ziltoidFour.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".ziltoidFive">
+          <a href="#" rel=".pictureLinkFiveZiltoid">
             <img class ="selectionFive" src ="Pictures/Ziltoid/ziltoidFive.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".ziltoidSix">
+          <a href="#" rel=".pictureLinkSixZiltoid">
             <img class ="selectionSix" src = "Pictures/Ziltoid/ziltoidSix.gif">
           </a>
         </div>
+        <div class = "subRowTwo page active">
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-        <ul>
-          <li class= "bird"><span>Four</span></li>
-          <li class= "old"><span>Five</span></li>
-          <li class= "wierd"><span>Six</span></li>
-        </ul>
+              <span class = "pictureTitle"> IV</span>
+
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+              <span class = "pictureTitle"> V </span>
+
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+              <span class = "pictureTitle">VI </span>
+
+          </div>
+        </div>
 
       </div>
     </div>
@@ -347,6 +461,10 @@
 
     <aside>
       <div class = "sideBar page active text-center">
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
         <a href="#" rel=".fishLink">
           <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
         </a>
@@ -378,64 +496,97 @@
       <div class = "row page active">
 
         <div class ="col-xs-4 col-md-4 col-lg-4 ">
-          <a href="#" rel=".birdOne">
+          <a href="#" rel=".pictureLinkOneBird">
             <img class = "selectionOne" src = "Pictures/Birds/birdOne.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".birdTwo">
+          <a href="#" rel=".pictureLinkTwoBird">
             <img class = "selectionTwo" src = "Pictures/Birds/birdTwo.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".birdThree">
+          <a href="#" rel=".pictureLinkThreeBird">
             <img class = "selectionThree" src ="Pictures/Birds/birdThree.jpeg">
           </a>
-        </div>
+          <div class = "subRow page active">
+            <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
 
-          <ul>
-            <li class= "fish"><span>One</span></li>
-            <li class= "japan"><span>Two</span></li>
-            <li class= "ziltoid"><span>Three</span></li>
-          </ul>
+                <span class = "pictureTitle"> I </span>
+
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                <span class = "pictureTitle"> II </span>
+
+            </div>
+
+            <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+                <span class = "pictureTitle">III </span>
+
+            </div>
+          </div>
 
       </div>
+    </div>
 
       <div class = "rowTwo page active">
         <div class = "col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".birdFour">
+          <a href="#" rel=".pictureLinkFourBird">
             <img class ="selectionFour" src ="Pictures/Birds/birdFour.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".birdFive">
+          <a href="#" rel=".pictureLinkFiveBird">
             <img class ="selectionFive" src ="Pictures/Birds/birdFive.jpeg">
           </a>
         </div>
 
         <div class ="col-xs-4 col-md-4 col-lg-4">
-          <a href="#" rel=".birdSix">
+          <a href="#" rel=".pictureLinkSixBird">
             <img class ="selectionSix" src = "Pictures/Birds/birdSix.jpeg">
           </a>
         </div>
+        <div class = "subRowTwo page active">
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-        <ul>
-          <li class= "bird"><span>Four</span></li>
-          <li class= "old"><span>Five</span></li>
-          <li class= "wierd"><span>Six</span></li>
-        </ul>
+              <span class = "pictureTitle"> IV</span>
+
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+              <span class = "pictureTitle"> V </span>
+
+          </div>
+
+          <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+              <span class = "pictureTitle">VI </span>
+
+          </div>
+        </div>
 
       </div>
     </div>
   </div>
 
 <!-- Old pictures -->
+
 <div  id="oldPage" class ="oldLink page">
 
   <aside>
+    <div class = "sideBar page active text-center">
+
+      <a href="#" rel=".landingLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
     <div class = "sideBar page active text-center">
       <a href="#" rel=".fishLink">
         <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
@@ -468,55 +619,81 @@
     <div class = "row page active">
 
       <div class ="col-xs-4 col-md-4 col-lg-4 ">
-        <a href="#" rel=".oldOne">
+        <a href="#" rel=".pictureLinkOneOld">
           <img class = "selectionOne" src = "Pictures/Old/oldOne.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".oldTwo">
+        <a href="#" rel=".pictureLinkTwoOld">
           <img class = "selectionTwo" src = "Pictures/Old/oldTwo.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".oldThree">
+        <a href="#" rel=".pictureLinkThreeOld">
           <img class = "selectionThree" src ="Pictures/Old/oldThree.jpeg">
         </a>
       </div>
+      <div class = "subRow page active">
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
 
-        <ul>
-          <li class= "I"><span>One</span></li>
-          <li class= "II"><span>Two</span></li>
-          <li class= "III"><span>Three</span></li>
-        </ul>
+            <span class = "pictureTitle"> I </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+            <span class = "pictureTitle"> II </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+            <span class = "pictureTitle">III </span>
+
+        </div>
+      </div>
 
     </div>
 
     <div class = "rowTwo page active">
       <div class = "col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".oldFour">
+        <a href="#" rel=".pictureLinkFourOld">
           <img class ="selectionFour" src ="Pictures/Old/oldFour.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".oldFive">
+        <a href="#" rel=".pictureLinkFiveOld">
           <img class ="selectionFive" src ="Pictures/Old/oldFive.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".oldSix">
+        <a href="#" rel=".pictureLinkSixOld">
           <img class ="selectionSix" src = "Pictures/Old/oldSix.jpg">
         </a>
       </div>
+      <div class = "subRowTwo page active">
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-      <ul>
-        <li class= "bird"><span>Four</span></li>
-        <li class= "old"><span>Five</span></li>
-        <li class= "wierd"><span>Six</span></li>
-      </ul>
+            <span class = "pictureTitle"> IV</span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle"> V </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle">VI </span>
+
+        </div>
+      </div>
 
     </div>
   </div>
@@ -526,6 +703,10 @@
 
   <aside>
     <div class = "sideBar page active text-center">
+      <a href="#" rel=".landingLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
       <a href="#" rel=".fishLink">
         <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Fish Album</button>
       </a>
@@ -557,55 +738,80 @@
     <div class = "row page active">
 
       <div class ="col-xs-4 col-md-4 col-lg-4 ">
-        <a href="#" rel=".wierdOne">
+        <a href="#" rel=".pictureLinkOneWierd">
           <img class = "selectionOne" src = "Pictures/Wierd/wierdOne.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".wierdTwo">
+        <a href="#" rel=".pictureLinkTwoWierd">
           <img class = "selectionTwo" src = "Pictures/Wierd/wierdTwo.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".wierdThree">
+        <a href="#" rel=".pictureLinkThreeWierd">
           <img class = "selectionThree" src ="Pictures/Wierd/wierdThree.jpeg">
         </a>
       </div>
+      <div class = "subRow page active">
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
 
-        <ul>
-          <li class= "fish"><span>One</span></li>
-          <li class= "japan"><span>Two</span></li>
-          <li class= "ziltoid"><span>Three</span></li>
-        </ul>
+            <span class = "pictureTitle"> I </span>
 
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+            <span class = "pictureTitle"> II </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBox text-center ">
+
+            <span class = "pictureTitle">III </span>
+
+        </div>
+      </div>
     </div>
 
     <div class = "rowTwo page active">
       <div class = "col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel=".wierdFour">
+        <a href="#" rel=".pictureLinkFourWierd">
           <img class ="selectionFour" src ="Pictures/Wierd/wierdFour.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel="birdFive">
+        <a href="#" rel=".pictureLinkFiveWierd">
           <img class ="selectionFive" src ="Pictures/Wierd/weirdFive.jpeg">
         </a>
       </div>
 
       <div class ="col-xs-4 col-md-4 col-lg-4">
-        <a href="#" rel="birdSix">
+        <a href="#" rel=".pictureLinkSixWierd">
           <img class ="selectionSix" src = "Pictures/Wierd/weirdSix.jpeg">
         </a>
       </div>
+      <div class = "subRowTwo page active">
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
 
-      <ul>
-        <li class= "bird"><span>Four</span></li>
-        <li class= "old"><span>Five</span></li>
-        <li class= "wierd"><span>Six</span></li>
-      </ul>
+            <span class = "pictureTitle"> IV</span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle"> V </span>
+
+        </div>
+
+        <div class ="col-xs-4 col-md-4 col-lg-4 subBoxTwo text-center ">
+
+            <span class = "pictureTitle">VI </span>
+
+        </div>
+      </div>
 
     </div>
   </div>
@@ -616,6 +822,15 @@
 
   <aside>
     <div class = "sideBar page active text-center">
+      <a href="#" rel=".landingLink">
+
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
+      <a href="#" rel=".fishLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+      </a>
+
       <a href="#" rel=".pictureLinkOne">
         <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
       </a>
@@ -655,6 +870,15 @@
 
   <aside>
     <div class = "sideBar page active text-center">
+      <a href="#" rel=".landingLink">
+
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
+      <a href="#" rel=".fishLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+      </a>
+
       <a href="#" rel=".pictureLinkOne">
         <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
       </a>
@@ -695,6 +919,16 @@
 
     <aside>
       <div class = "sideBar page active text-center">
+
+        <a href="#" rel=".landingLink">
+
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
+        <a href="#" rel=".fishLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+        </a>
+
         <a href="#" rel=".pictureLinkOne">
           <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
         </a>
@@ -727,7 +961,7 @@
 
       </div>
     </div>
-    <span class = "title page active">Picture III
+      <span class = "title page active">Picture III
     </span>
   </div>
     <!-- Picture Four -->
@@ -736,6 +970,14 @@
 
       <aside>
         <div class = "sideBar page active text-center">
+          <a href="#" rel=".landingLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+          </a>
+
+          <a href="#" rel=".fishLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+          </a>
+
           <a href="#" rel=".pictureLinkOne">
             <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
           </a>
@@ -775,6 +1017,15 @@
 
         <aside>
           <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
+            <a href="#" rel=".fishLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+            </a>
+
             <a href="#" rel=".pictureLinkOne">
               <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
             </a>
@@ -815,6 +1066,15 @@
 
           <aside>
             <div class = "sideBar page active text-center">
+              <a href="#" rel=".landingLink">
+
+                <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+              </a>
+
+              <a href="#" rel=".fishLink">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="fish" id ="fishButton" >Album Home</button>
+              </a>
+
               <a href="#" rel=".pictureLinkOne">
                 <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
               </a>
@@ -854,6 +1114,14 @@
 
 <aside>
   <div class = "sideBar page active text-center">
+    <a href="#" rel=".landingLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+    </a>
+
+    <a href="#" rel=".japnLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+    </a>
+
     <a href="#" rel=".pictureLinkOneJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
     </a>
@@ -893,25 +1161,33 @@
 
 <aside>
   <div class = "sideBar page active text-center">
-    <a href="#" rel=".pictureLinkOne">
+    <a href="#" rel=".landingLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+    </a>
+
+    <a href="#" rel=".japnLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkOneJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
     </a>
 
-    <a href="#" rel=".pictureLinkTwo">
+    <a href="#" rel=".pictureLinkTwoJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
     </a>
 
-    <a href="#" rel=".pictureLinkThree">
+    <a href="#" rel=".pictureLinkThreeJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
     </a>
-    <a href="#" rel=".pictureLinkFour">
+    <a href="#" rel=".pictureLinkFourJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
     </a>
-    <a href="#" rel=".pictureLinkFive">
+    <a href="#" rel=".pictureLinkFiveJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
     </a>
 
-    <a href="#" rel=".pictureLinkSix">
+    <a href="#" rel=".pictureLinkSixJapan">
       <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
     </a>
   </div>
@@ -924,34 +1200,42 @@
 
   </div>
 </div>
-<span class = "title page active">Picture II
+<span class = "bottomTitle page active">Picture II
 </span>
 </div>
 
 <!--   third picture -->
-<div  id="pictureThree" class ="pictureLinkThree page">
+<div  id="pictureThreeJapan" class ="pictureLinkThreeJapan page">
 
   <aside>
     <div class = "sideBar page active text-center">
-      <a href="#" rel=".pictureLinkOne">
+      <a href="#" rel=".landingLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
+      <a href="#" rel=".japnLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkOneJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
       </a>
 
-      <a href="#" rel=".pictureLinkTwo">
+      <a href="#" rel=".pictureLinkTwoJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
       </a>
 
-      <a href="#" rel=".pictureLinkThree">
+      <a href="#" rel=".pictureLinkThreeJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
       </a>
-      <a href="#" rel=".pictureLinkFour">
+      <a href="#" rel=".pictureLinkFourJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
       </a>
-      <a href="#" rel=".pictureLinkFive">
+      <a href="#" rel=".pictureLinkFiveJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
       </a>
 
-      <a href="#" rel=".pictureLinkSix">
+      <a href="#" rel=".pictureLinkSixJapan">
         <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
       </a>
     </div>
@@ -961,19 +1245,27 @@
 
 
     <div class = "rowAlt page active">
-        <img class = "inLarge" src = "Pictures/Fish/fishThree.gif">
+        <img class = "inLarge" src = "Pictures/Japan/japanThree.gif">
 
     </div>
   </div>
-  <span class = "title page active">Picture III
+  <span class = "bottomTitle page active">Picture III
   </span>
 </div>
   <!-- Picture Four -->
 
-  <div  id="pictureFour" class ="pictureLinkFour page">
+  <div  id="pictureFourJapan" class ="pictureLinkFourJapan page">
 
     <aside>
       <div class = "sideBar page active text-center">
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
+        <a href="#" rel=".japnLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+        </a>
+
         <a href="#" rel=".pictureLinkOneJapan">
           <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
         </a>
@@ -1000,38 +1292,46 @@
 
     <div id="pictureContainer" class = "container-fluid page active">
       <div class = "rowAlt page active">
-          <img class = "inLarge" src = "Pictures/Fish/fishFour.gif">
+          <img class = "inLarge" src = "Pictures/Japan/japanFour.gif">
 
       </div>
     </div>
-    <span class = "title page active">Picture IV
+    <span class = "bottomTitle page active">Picture IV
     </span>
   </div>
 
-    <!--   Five -->
-    <div  id="pictureFive" class ="pictureLinkFive page">
+    <!--Five -->
+    <div  id="pictureFiveJapan" class ="pictureLinkFiveJapan page">
 
       <aside>
         <div class = "sideBar page active text-center">
-          <a href="#" rel=".pictureLinkOne">
+          <a href="#" rel=".landingLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+          </a>
+
+          <a href="#" rel=".japnLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkOneJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
           </a>
 
-          <a href="#" rel=".pictureLinkTwo">
+          <a href="#" rel=".pictureLinkTwoJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
           </a>
 
-          <a href="#" rel=".pictureLinkThree">
+          <a href="#" rel=".pictureLinkThreeJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
           </a>
-          <a href="#" rel=".pictureLinkFour">
+          <a href="#" rel=".pictureLinkFourJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
           </a>
-          <a href="#" rel=".pictureLinkFive">
+          <a href="#" rel=".pictureLinkFiveJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
           </a>
 
-          <a href="#" rel=".pictureLinkSix">
+          <a href="#" rel=".pictureLinkSixJapan">
             <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
           </a>
         </div>
@@ -1040,38 +1340,47 @@
       <div id="pictureContainer" class = "container-fluid page active">
 
         <div class = "rowAlt page active">
-            <img class = "inLarge" src = "Pictures/Fish/FishFive.gif">
+            <img class = "inLarge" src = "Pictures/Japan/japanFive.gif">
 
         </div>
       </div>
-      <span class = "title page active">Picture V
+      <span class = "bottomTitle page active">Picture V
       </span>
     </div>
 
       <!--   Six -->
-      <div  id="pictureSix" class ="pictureLinkSix page">
+      <div  id="pictureSixJapan" class ="pictureLinkSixJapan page">
 
         <aside>
           <div class = "sideBar page active text-center">
-            <a href="#" rel=".pictureLinkOne">
+
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
+            <a href="#" rel=".japnLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="japan" id ="japanButton" >Album Home</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkOneJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
             </a>
 
-            <a href="#" rel=".pictureLinkTwo">
+            <a href="#" rel=".pictureLinkTwoJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
             </a>
 
-            <a href="#" rel=".pictureLinkThree">
+            <a href="#" rel=".pictureLinkThreeJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
             </a>
-            <a href="#" rel=".pictureLinkFour">
+            <a href="#" rel=".pictureLinkFourJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
             </a>
-            <a href="#" rel=".pictureLinkFive">
+            <a href="#" rel=".pictureLinkFiveJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
             </a>
 
-            <a href="#" rel=".pictureLinkSix">
+            <a href="#" rel=".pictureLinkSixJapan">
               <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
             </a>
           </div>
@@ -1079,14 +1388,1179 @@
 
         <div id="pictureContainer" class = "container-fluid page active">
           <div class = "rowAlt page active">
-              <img class = "inLarge" src = "Pictures/Fish/fishSix.gif">
+              <img class = "inLarge" src = "Pictures/Japan/JapanSix.gif">
 
           </div>
         </div>
-        <span class = "title page active">Picture Six
+        <span class = "bottomTitle page active">Picture Six
         </span>
       </div>
 
+<!--Ziltoid in large-->
+<div  id="pictureOneZiltoid" class ="pictureLinkOneZiltoid page">
+
+<aside>
+  <div class = "sideBar page active text-center">
+    <a href="#" rel=".landingLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+    </a>
+
+    <a href="#" rel=".ziltoidLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkOneZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkTwoZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkThreeZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+    </a>
+    <a href="#" rel=".pictureLinkFourZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+    </a>
+    <a href="#" rel=".pictureLinkFiveZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkSixZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+    </a>
+  </div>
+</aside>
+
+<div id="pictureContainer" class = "container-fluid page active">
+
+  <div class = "rowAlt page active">
+      <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidOne.jpeg">
+
+  </div>
+</div>
+<span class = "bottomTitle page active">Picture I
+</span>
+</div>
+<!--second picture -->
+<div  id="pictureTwoZiltoid" class ="pictureLinkTwoZiltoid page">
+
+<aside>
+  <div class = "sideBar page active text-center">
+    <a href="#" rel=".landingLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+    </a>
+
+    <a href="#" rel=".ziltoidLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkOneZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkTwoZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkThreeZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+    </a>
+    <a href="#" rel=".pictureLinkFourZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+    </a>
+    <a href="#" rel=".pictureLinkFiveZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkSixZiltoid">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+    </a>
+  </div>
+</aside>
+
+<div id="pictureContainer" class = "container-fluid page active">
+
+  <div class = "rowAlt page active">
+      <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidTwo.jpeg">
+
+  </div>
+</div>
+<span class = "bottomTitle page active">Picture II
+</span>
+</div>
+
+<!--   third picture -->
+<div  id="pictureThreeZiltoid" class ="pictureLinkThreeZiltoid page">
+
+  <aside>
+    <div class = "sideBar page active text-center">
+      <a href="#" rel=".landingLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
+      <a href="#" rel=".ziltoidLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkOneZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkTwoZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkThreeZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+      </a>
+      <a href="#" rel=".pictureLinkFourZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+      </a>
+      <a href="#" rel=".pictureLinkFiveZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkSixZiltoid">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+      </a>
+    </div>
+  </aside>
+
+  <div id="pictureContainer" class = "container-fluid page active">
+
+
+    <div class = "rowAlt page active">
+        <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidThree.jpeg">
+
+    </div>
+  </div>
+  <span class = "bottomTitle page active">Picture III
+  </span>
+</div>
+  <!-- Picture Four -->
+
+  <div  id="pictureFourZiltoid" class ="pictureLinkFourZiltoid page">
+
+    <aside>
+      <div class = "sideBar page active text-center">
+
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
+        <a href="#" rel=".ziltoidLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkOneZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkTwoZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkThreeZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+        </a>
+        <a href="#" rel=".pictureLinkFourZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+        </a>
+        <a href="#" rel=".pictureLinkFiveZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkSixZiltoid">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+        </a>
+      </div>
+    </aside>
+
+    <div id="pictureContainer" class = "container-fluid page active">
+      <div class = "rowAlt page active">
+          <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidFour.jpeg">
+
+      </div>
+    </div>
+    <span class = "bottomTitle page active">Picture IV
+    </span>
+  </div>
+
+    <!--   Five -->
+    <div  id="pictureFiveZiltoid" class ="pictureLinkFiveZiltoid page">
+
+      <aside>
+        <div class = "sideBar page active text-center">
+          <a href="#" rel=".landingLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+          </a>
+
+          <a href="#" rel=".ziltoidLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkOneZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkTwoZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkThreeZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+          </a>
+          <a href="#" rel=".pictureLinkFourZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+          </a>
+          <a href="#" rel=".pictureLinkFiveZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkSixZiltoid">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+          </a>
+        </div>
+      </aside>
+
+      <div id="pictureContainer" class = "container-fluid page active">
+
+        <div class = "rowAlt page active">
+            <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidFive.jpeg">
+
+        </div>
+      </div>
+      <span class = "bottomTitle page active">Picture V
+      </span>
+    </div>
+
+      <!--   Six -->
+      <div  id="pictureSixZiltoid" class ="pictureLinkSixZiltoid page">
+
+        <aside>
+          <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
+            <a href="#" rel=".ziltoidLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="ziltoid" id ="ziltoidButton" >Album Home</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkOneZiltoid">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkTwoZiltoid">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkThreeBird">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+            </a>
+            <a href="#" rel=".pictureLinkFourZiltoid">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+            </a>
+            <a href="#" rel=".pictureLinkFiveZiltoid">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkSixZiltoid">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+            </a>
+          </div>
+        </aside>
+
+        <div id="pictureContainer" class = "container-fluid page active">
+          <div class = "rowAlt page active">
+              <img class = "inLarge" src = "Pictures/Ziltoid/ziltoidSix.gif">
+
+          </div>
+        </div>
+        <span class = "bottomTitle page active">Picture Six
+        </span>
+      </div>
+
+      <!--Bird in large-->
+      <div  id="pictureOneBird" class ="pictureLinkOneBird page">
+
+      <aside>
+        <div class = "sideBar page active text-center">
+          <a href="#" rel=".landingLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+          </a>
+
+          <a href="#" rel=".birdLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkOneBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkTwoBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkThreeBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+          </a>
+          <a href="#" rel=".pictureLinkFourBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+          </a>
+          <a href="#" rel=".pictureLinkFiveBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkSixBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+          </a>
+        </div>
+      </aside>
+
+      <div id="pictureContainer" class = "container-fluid page active">
+
+        <div class = "rowAlt page active">
+            <img class = "inLarge" src = "Pictures/Birds/birdOne.jpeg">
+
+        </div>
+      </div>
+      <span class = "bottomTitle page active">Picture I
+      </span>
+      </div>
+      <!--   second picture -->
+      <div  id="pictureTwoBird" class ="pictureLinkTwoBird page">
+
+      <aside>
+        <div class = "sideBar page active text-center">
+          <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
+            <a href="#" rel=".birdLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+            </a>
+
+          <a href="#" rel=".pictureLinkOneBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkTwoBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkThreeBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+          </a>
+          <a href="#" rel=".pictureLinkFourBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+          </a>
+          <a href="#" rel=".pictureLinkFiveBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkSixBird">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+          </a>
+        </div>
+      </aside>
+
+      <div id="pictureContainer" class = "container-fluid page active">
+
+        <div class = "rowAlt page active">
+            <img class = "inLarge" src = "Pictures/Birds/birdTwo.jpeg">
+
+        </div>
+      </div>
+      <span class = "bottomTitle page active">Picture II
+      </span>
+      </div>
+
+      <!--   third picture -->
+      <div  id="pictureThreeBird" class ="pictureLinkThreeBird page">
+
+        <aside>
+          <div class = "sideBar page active text-center">
+            <div class = "sideBar page active text-center">
+              <a href="#" rel=".landingLink">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+              </a>
+
+              <a href="#" rel=".birdLink">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+              </a>
+
+              <a href="#" rel=".pictureLinkOneBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+              </a>
+
+              <a href="#" rel=".pictureLinkTwoBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+              </a>
+
+              <a href="#" rel=".pictureLinkThreeBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+              </a>
+              <a href="#" rel=".pictureLinkFourBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+              </a>
+              <a href="#" rel=".pictureLinkFiveBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+              </a>
+
+              <a href="#" rel=".pictureLinkSixBird">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+              </a>
+          </div>
+        </aside>
+
+        <div id="pictureContainer" class = "container-fluid page active">
+
+
+          <div class = "rowAlt page active">
+              <img class = "inLarge" src = "Pictures/Birds/birdThree.jpeg">
+
+          </div>
+        </div>
+        <span class = "bottomTitle page active">Picture III
+        </span>
+      </div>
+        <!-- Picture Four -->
+
+        <div  id="pictureFourBird" class ="pictureLinkFourBird page">
+
+          <aside>
+            <div class = "sideBar page active text-center">
+
+              <div class = "sideBar page active text-center">
+                <a href="#" rel=".landingLink">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                </a>
+
+                <a href="#" rel=".birdLink">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkOneBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkTwoBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkThreeBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                </a>
+                <a href="#" rel=".pictureLinkFourBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                </a>
+                <a href="#" rel=".pictureLinkFiveBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkSixBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                </a>
+            </div>
+          </aside>
+
+          <div id="pictureContainer" class = "container-fluid page active">
+            <div class = "rowAlt page active">
+                <img class = "inLarge" src = "Pictures/Birds/birdFour.jpeg">
+
+            </div>
+          </div>
+          <span class = "bottomTitle page active">Picture IV
+          </span>
+        </div>
+
+          <!--   Five -->
+          <div  id="pictureFiveBird" class ="pictureLinkFiveBird page">
+
+            <aside>
+              <div class = "sideBar page active text-center">
+
+                <div class = "sideBar page active text-center">
+                  <a href="#" rel=".landingLink">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                  </a>
+
+                  <a href="#" rel=".birdLink">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                  </a>
+
+                <a href="#" rel=".pictureLinkOneBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkTwoBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkThreeBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                </a>
+                <a href="#" rel=".pictureLinkFourBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                </a>
+                <a href="#" rel=".pictureLinkFiveBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkSixBird">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                </a>
+              </div>
+            </aside>
+
+            <div id="pictureContainer" class = "container-fluid page active">
+
+              <div class = "rowAlt page active">
+                  <img class = "inLarge" src = "Pictures/Birds/birdFive.jpeg">
+
+              </div>
+            </div>
+            <span class = "bottomTitle page active">Picture V
+            </span>
+          </div>
+
+            <!--   Six -->
+            <div  id="pictureSixBird" class ="pictureLinkSixBird page">
+
+              <aside>
+                <div class = "sideBar page active text-center">
+                  <div class = "sideBar page active text-center">
+                    <a href="#" rel=".landingLink">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                    </a>
+
+                    <a href="#" rel=".birdLink">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="birdHome" id ="birdButton" >Album Home</button>
+                    </a>
+
+                  <a href="#" rel=".pictureLinkOneBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                  </a>
+
+                  <a href="#" rel=".pictureLinkTwoBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                  </a>
+
+                  <a href="#" rel=".pictureLinkThreeBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                  </a>
+                  <a href="#" rel=".pictureLinkFourBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                  </a>
+                  <a href="#" rel=".pictureLinkFiveBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                  </a>
+
+                  <a href="#" rel=".pictureLinkSixBird">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                  </a>
+                </div>
+              </aside>
+
+              <div id="pictureContainer" class = "container-fluid page active">
+                <div class = "rowAlt page active">
+                    <img class = "inLarge" src = "Pictures/Birds/birdSix.jpeg">
+
+                </div>
+              </div>
+              <span class = "bottomTitle page active">Picture Six
+              </span>
+            </div>
+
+            <!--Old in large-->
+            <div  id="pictureOneOld" class ="pictureLinkOneOld page">
+
+            <aside>
+              <div class = "sideBar page active text-center">
+                <a href="#" rel=".landingLink">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                </a>
+
+                <a href="#" rel=".birdLink">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkOneOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkTwoOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkThreeOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                </a>
+                <a href="#" rel=".pictureLinkFourOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                </a>
+                <a href="#" rel=".pictureLinkFiveOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkSixOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                </a>
+              </div>
+            </aside>
+
+            <div id="pictureContainer" class = "container-fluid page active">
+
+              <div class = "rowAlt page active">
+                  <img class = "inLarge" src = "Pictures/Old/oldOne.jpeg">
+
+              </div>
+            </div>
+            <span class = "bottomTitle page active">Picture I
+            </span>
+            </div>
+            <!--   second picture -->
+            <div  id="pictureTwoOld" class ="pictureLinkTwoOld page">
+
+            <aside>
+              <div class = "sideBar page active text-center">
+                <div class = "sideBar page active text-center">
+                  <a href="#" rel=".landingLink">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                  </a>
+
+                  <a href="#" rel=".birdLink">
+                    <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                  </a>
+
+                <a href="#" rel=".pictureLinkOneOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkTwoOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkThreeOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                </a>
+                <a href="#" rel=".pictureLinkFourOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                </a>
+                <a href="#" rel=".pictureLinkFiveOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                </a>
+
+                <a href="#" rel=".pictureLinkSixOld">
+                  <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                </a>
+              </div>
+            </aside>
+
+            <div id="pictureContainer" class = "container-fluid page active">
+
+              <div class = "rowAlt page active">
+                  <img class = "inLarge" src = "Pictures/Old/oldTwo.jpeg">
+
+              </div>
+            </div>
+            <span class = "bottomTitle page active">Picture II
+            </span>
+            </div>
+
+            <!--   third picture -->
+            <div  id="pictureThreeOld" class ="pictureLinkThreeOld page">
+
+              <aside>
+                <div class = "sideBar page active text-center">
+                  <div class = "sideBar page active text-center">
+                    <a href="#" rel=".landingLink">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                    </a>
+
+                    <a href="#" rel=".birdLink">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                    </a>
+
+                    <a href="#" rel=".pictureLinkOneOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                    </a>
+
+                    <a href="#" rel=".pictureLinkTwoOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                    </a>
+
+                    <a href="#" rel=".pictureLinkThreeOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                    </a>
+                    <a href="#" rel=".pictureLinkFourOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                    </a>
+                    <a href="#" rel=".pictureLinkFiveOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                    </a>
+
+                    <a href="#" rel=".pictureLinkSixOld">
+                      <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                    </a>
+                </div>
+              </aside>
+
+              <div id="pictureContainer" class = "container-fluid page active">
+
+
+                <div class = "rowAlt page active">
+                    <img class = "inLarge" src = "Pictures/Old/oldThree.jpeg">
+
+                </div>
+              </div>
+              <span class = "bottomTitle page active">Picture III
+              </span>
+            </div>
+              <!-- Picture Four -->
+
+              <div  id="pictureFourOld" class ="pictureLinkFourOld page">
+
+                <aside>
+                  <div class = "sideBar page active text-center">
+
+                    <div class = "sideBar page active text-center">
+                      <a href="#" rel=".landingLink">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                      </a>
+
+                      <a href="#" rel=".birdLink">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkOneOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkTwoOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkThreeOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                      </a>
+                      <a href="#" rel=".pictureLinkFourOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                      </a>
+                      <a href="#" rel=".pictureLinkFiveOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkSixOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                      </a>
+                  </div>
+                </aside>
+
+                <div id="pictureContainer" class = "container-fluid page active">
+                  <div class = "rowAlt page active">
+                      <img class = "inLarge" src = "Pictures/Old/oldFour.jpeg">
+
+                  </div>
+                </div>
+                <span class = "bottomTitle page active">Picture IV
+                </span>
+              </div>
+
+                <!--   Five -->
+                <div  id="pictureFiveOld" class ="pictureLinkFiveOld page">
+
+                  <aside>
+                    <div class = "sideBar page active text-center">
+
+                      <div class = "sideBar page active text-center">
+                        <a href="#" rel=".landingLink">
+                          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+                        </a>
+
+                        <a href="#" rel=".birdLink">
+                          <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+                        </a>
+
+                      <a href="#" rel=".pictureLinkOneOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkTwoOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkThreeOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+                      </a>
+                      <a href="#" rel=".pictureLinkFourOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+                      </a>
+                      <a href="#" rel=".pictureLinkFiveOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+                      </a>
+
+                      <a href="#" rel=".pictureLinkSixOld">
+                        <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+                      </a>
+                    </div>
+                  </aside>
+
+                  <div id="pictureContainer" class = "container-fluid page active">
+
+                    <div class = "rowAlt page active">
+                        <img class = "inLarge" src = "Pictures/Old/oldFive.jpeg">
+
+                    </div>
+                  </div>
+                  <span class = "bottomTitle page active">Picture V
+                  </span>
+                </div>
+
+<!--   Six -->
+<div  id="pictureSixOld" class ="pictureLinkSixOld page">
+
+  <aside>
+    <div class = "sideBar page active text-center">
+      <div class = "sideBar page active text-center">
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
+        <a href="#" rel=".birdLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="birdHome" id ="birdButton" >Album Home</button>
+        </a>
+
+      <a href="#" rel=".pictureLinkOneOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkTwoOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkThreeOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+      </a>
+      <a href="#" rel=".pictureLinkFourOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+      </a>
+      <a href="#" rel=".pictureLinkFiveOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+      </a>
+
+      <a href="#" rel=".pictureLinkSixOld">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+      </a>
+    </div>
+  </aside>
+
+  <div id="pictureContainer" class = "container-fluid page active">
+    <div class = "rowAlt page active">
+        <img class = "inLarge" src = "Pictures/Old/oldSix.jpg">
+
+    </div>
+  </div>
+  <span class = "bottomTitle page active">Picture Six
+  </span>
+</div>
+
+<!--Wierd in large-->
+<div  id="pictureOneWierd" class ="pictureLinkOneWierd page">
+
+<aside>
+  <div class = "sideBar page active text-center">
+    <a href="#" rel=".landingLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+    </a>
+
+    <a href="#" rel=".birdLink">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkOneWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="One" id ="PictureI" >Picture I</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkTwoWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkThreeWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+    </a>
+    <a href="#" rel=".pictureLinkFourWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+    </a>
+    <a href="#" rel=".pictureLinkFiveOldWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkSixOldWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+    </a>
+  </div>
+</aside>
+
+<div id="pictureContainer" class = "container-fluid page active">
+
+  <div class = "rowAlt page active">
+      <img class = "inLarge" src = "Pictures/Wierd/wierdOne.jpeg">
+
+  </div>
+</div>
+<span class = "bottomTitle page active">Picture I
+</span>
+</div>
+<!--   second picture -->
+<div  id="pictureTwoWierd" class ="pictureLinkTwoWierd page">
+
+<aside>
+  <div class = "sideBar page active text-center">
+    <div class = "sideBar page active text-center">
+      <a href="#" rel=".landingLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+      </a>
+
+       <a href="#" rel=".birdLink">
+        <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+      </a>
+
+    <a href="#" rel=".pictureLinkOneWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkTwoWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkThreeWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+    </a>
+    <a href="#" rel=".pictureLinkFourWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+    </a>
+    <a href="#" rel=".pictureLinkFiveWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+    </a>
+
+    <a href="#" rel=".pictureLinkSixWierd">
+      <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+    </a>
+  </div>
+</aside>
+
+<div id="pictureContainer" class = "container-fluid page active">
+
+  <div class = "rowAlt page active">
+      <img class = "inLarge" src = "Pictures/Wierd/wierdTwo.jpeg">
+
+  </div>
+</div>
+<span class = "bottomTitle page active">Picture II
+</span>
+</div>
+
+<!--   third picture -->
+<div  id="pictureThreeWierd" class ="pictureLinkThreeWierd page">
+
+  <aside>
+    <div class = "sideBar page active text-center">
+      <div class = "sideBar page active text-center">
+        <a href="#" rel=".landingLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+        </a>
+
+        <a href="#" rel=".birdLink">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkOneWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkTwoWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkThreeWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+        </a>
+        <a href="#" rel=".pictureLinkFourWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+        </a>
+        <a href="#" rel=".pictureLinkFiveWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+        </a>
+
+        <a href="#" rel=".pictureLinkSixWierd">
+          <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+        </a>
+    </div>
+  </aside>
+
+  <div id="pictureContainer" class = "container-fluid page active">
+
+
+    <div class = "rowAlt page active">
+        <img class = "inLarge" src = "Pictures/Wierd/wierdThree.jpeg">
+
+    </div>
+  </div>
+  <span class = "bottomTitle page active">Picture III
+  </span>
+</div>
+  <!-- Picture Four -->
+
+  <div  id="pictureFourWierd" class ="pictureLinkFourWierd page">
+
+    <aside>
+      <div class = "sideBar page active text-center">
+
+        <div class = "sideBar page active text-center">
+          <a href="#" rel=".landingLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+          </a>
+
+          <a href="#" rel=".birdLink">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkOneWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkTwoWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkThreeWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+          </a>
+          <a href="#" rel=".pictureLinkFourWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+          </a>
+          <a href="#" rel=".pictureLinkFiveWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkSixWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+          </a>
+      </div>
+    </aside>
+
+    <div id="pictureContainer" class = "container-fluid page active">
+      <div class = "rowAlt page active">
+          <img class = "inLarge" src = "Pictures/Wierd/wierdFour.jpeg">
+
+      </div>
+    </div>
+    <span class = "bottomTitle page active">Picture IV
+    </span>
+  </div>
+
+    <!--   Five -->
+    <div  id="pictureFiveWierd" class ="pictureLinkFiveWierd page">
+
+      <aside>
+        <div class = "sideBar page active text-center">
+
+          <div class = "sideBar page active text-center">
+            <a href="#" rel=".landingLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+            </a>
+
+            <a href="#" rel=".birdLink">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="bird" id ="birdButton" >Album Home</button>
+            </a>
+
+          <a href="#" rel=".pictureLinkOneWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkTwoWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkThreeWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+          </a>
+          <a href="#" rel=".pictureLinkFourWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+          </a>
+          <a href="#" rel=".pictureLinkFiveWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+          </a>
+
+          <a href="#" rel=".pictureLinkSixWierd">
+            <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+          </a>
+        </div>
+      </aside>
+
+      <div id="pictureContainer" class = "container-fluid page active">
+
+        <div class = "rowAlt page active">
+            <img class = "inLarge" src = "Pictures/Wierd/weirdFive.jpeg">
+
+        </div>
+      </div>
+      <span class = "bottomTitle page active">Picture V
+      </span>
+    </div>
+
+      <!--   Six -->
+      <div  id="pictureSixWierd" class ="pictureLinkSixWierd page">
+
+        <aside>
+          <div class = "sideBar page active text-center">
+            <div class = "sideBar page active text-center">
+              <a href="#" rel=".landingLink">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="landing" id ="landingButton" >Home</button>
+              </a>
+
+              <a href="#" rel=".birdLink">
+                <button class="btn btn-block btn-lg btn-default" type="button" name="birdHome" id ="birdButton" >Album Home</button>
+              </a>
+
+            <a href="#" rel=".pictureLinkOneWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="one" id ="PictureI" >Picture I</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkTwoWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="two" id ="PictureII">Picture II</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkThreeWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="three" id ="PictureIII">Picture III</button>
+            </a>
+            <a href="#" rel=".pictureLinkFourWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="four" id = "PictureIV">Picture IV</button>
+            </a>
+            <a href="#" rel=".pictureLinkFiveWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="five" id = "PictureV">Picture V</button>
+            </a>
+
+            <a href="#" rel=".pictureLinkSixWierd">
+              <button class="btn btn-block btn-lg btn-default" type="button" name="six" id= "PictureVI">Picture VI</button>
+            </a>
+          </div>
+        </aside>
+
+        <div id="pictureContainer" class = "container-fluid page active">
+          <div class = "rowAlt page active">
+              <img class = "inLarge" src = "Pictures/Wierd/weirdSix.jpeg">
+
+          </div>
+        </div>
+        <span class = "bottomTitle page active">Picture Six
+        </span>
+      </div>
 
 
 
